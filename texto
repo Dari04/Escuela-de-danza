@@ -1,0 +1,197 @@
+ <section class="background2">
+           <div class="container">
+	    	<div class="row">
+	    		<h1 class="instructores">INSTRUCTORES</h1>
+	    	</div>
+	    	<div class="row fila1">
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_4.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">RODULFO PRINCE</h2>
+	    		        <p class="texto2">Es un bailarín y actor,estudió en la Academia de Arte y Diseño.</p>
+	    		    </div>      
+	    		</div>
+                <div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_14.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">ADAM PUDNEY</h2>
+	    		        <p class="texto2">Es un bailarín y actor,estudió en la Academia de Arte y Diseño.</p>
+	    		    </div>      
+	    		</div>
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_1.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">IAN KNOWLES</h2>
+	    		        <p class="texto2">Es un bailarín y actor,estudió en la Academia de Arte y Diseño.</p>
+	    		    </div>      
+	    		</div>
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_10.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">KALIMBA GIBSON</h2>
+	    		        <p class="texto2">Es un bailarín y actor,estudió en la Academia de Arte y Diseño.</p>
+	    		    </div> 
+	    		</div>     
+	    	</div>
+	    	<div class="row fila2">
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_11.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		    	<div class="emma">
+	    		        <h2 class="nombres">EMMA NORTHMORE</h2>
+	    		        <p class="texto2">Es una bailarina y coreógrafa de ballet y danza contemporánea. Es directora de la Asociación Cultural D1.</p>
+	    		        </div>
+	    		    </div> 
+	    		</div>
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_12.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">SAM DAY</h2>
+	    		        <p class="texto2">Es un bailarín y actor,estudió en la Academia de Arte y Diseño.</p>
+	    		    </div> 
+	    		</div>
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_9.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">KIM MENDEZ</h2>
+	    		        <p class="texto2">Es un bailarín y actor,estudió en la Academia de Arte y Diseño.</p>
+	    		    </div> 
+	    		</div>
+	    		<div class="col-3">
+	    		    <div class="row">
+	    		        <img class="fotos" src="img/profesor_15.jpg">
+	    		    </div>
+	    		    <div class="row">
+	    		        <h2 class="nombres">MAGGIE PATERSON</h2>
+	    		        <p class="texto2">Es una bailarina y coreógrafa de ballet y danza contemporánea.</p>
+	    		    </div> 
+	    		</div>
+
+	    	</div>
+          </div>
+	    </section>
+
+</body>
+</html>
+.white{
+	background-color: white;
+	height: 150px;
+}
+.ballet{
+	background-image: url("../img/dance_1.jpg");
+	height: 400px;
+	background-repeat:  none;
+	background-position:-35% 0%; 
+	background-size: cover;
+
+}
+.academy {
+	color: #192951;
+	font-size: 24px;
+	position: relative;
+	left: 350px;
+	top: 45px;
+}
+nav{
+	position: relative;
+	top: 70px;
+	right: 80px;
+	font-size: 15px;
+}
+
+ul li {
+	display: inline-block;
+	margin:35px;
+
+}
+a{
+	color: grey;
+}
+.bailarines{
+	background: url("../img/dance_7.jpg")no-repeat;
+    background-size: 150% 175%;
+    height: 457px;
+    background-position: 0px -130px;
+}
+.sobrenosotros{
+	width: 550px;
+	background-color: rgba(0, 0, 0, 0.55);
+	padding: 60px 20px;
+	margin: 130px auto;
+}
+.titulo, .nosotros {
+	color: white;
+	text-align: center;
+}
+.titulo{
+	font-size: 27px;
+	margin-bottom: 25px;
+}
+.escritura {
+	width: 250px;
+	margin-top: 70px;
+	text-align: center;
+	color: grey;
+}
+.line {
+	border-top: 1px solid #242225;
+	width: 240px;
+	margin: 20px 0px;
+}
+.background{
+	background: #B0B3B9 url("../img/cubes.png")repeat;
+	width: 100%;
+	height: 330px;
+}
+.background2{;
+	/*background: url("../img/old_wall.png");*/
+	background-color: white;
+	height: 1000px;
+}
+.fila1{
+	position: relative;
+	top: 70px;
+}
+.fila2{
+	position: relative;
+	top: 330px;
+}
+.fotos {
+	width: 220px;
+    height: 223px;
+    position: absolute;
+    clip: rect(0px,212px,172px,0px);
+}
+.nombres {
+	font-size: 20px;
+	color: grey;
+}
+
+.instructores {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+}
+.texto2{
+	color: black;
+}
+/*.frase{
+	background: #B0B3B9 url("../img/cubes.png")repeat;
+	width: 100%;
+	height: 250px;
+	}*/
+

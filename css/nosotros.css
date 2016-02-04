@@ -1,0 +1,162 @@
+.white{
+	background-color: white;
+	height: 130px;
+	width: 100%;
+	z-index: 15;
+	position: fixed;
+}
+.ballet{
+	background-image: url("../img/dance_1.jpg");
+	height: 400px;
+	background-repeat:  none;
+	background-position:-35% 0%; 
+	background-size: cover;
+}
+.academy {
+	color: #192951;
+	font-size: 24px;
+	position: relative;
+	left: 345px;
+	top: 32px;
+}
+nav{
+	position: relative;
+	top: 53px;
+	right: 80px;
+	font-size: 15px;
+}
+
+ul li {
+	display: inline-block;
+	margin:35px;
+
+}
+a{
+	color: grey;
+}
+.pad{
+	padding-top: 100px;
+}
+.bailarines{
+	background: url("../img/dance_7.jpg")no-repeat;
+    background-size: 150% 180%;
+    height: 440px;
+    background-position: 0px -130px;
+}
+.sobrenosotros{
+	width: 550px;
+	background-color: rgba(0, 0, 0, 0.55);
+	padding: 60px 20px;
+	margin: 120px auto;
+}
+.titulo, .nosotros {
+	color: white;
+	text-align: center;
+}
+
+.titulo{
+	font-size: 27px;
+	margin-bottom: 25px;
+}
+.background1 {
+	background: #B0B3B9 url("../img/cubes.png");
+	width: 100%;
+	height: 270px;
+}
+.box1{
+	margin-top: 40px;
+	color: grey;
+}
+.line {
+	border-top: 1px solid grey;
+	width: 240px;
+	margin: 20px;
+}
+.text1{
+	font-size: 15px;
+}
+
+.line, .pilar, .text1 {
+	text-align: center;
+}
+
+.background1, .maestros {
+	padding: 50px 0px;
+}
+.maestros {
+	background: url("../img/old_wall.png")repeat;
+	width: 100%;
+	height: 900px;
+}
+.fotos {
+	width: 220px;
+    height: 223px;
+    position: absolute;
+    clip: rect(0px,212px,172px,0px);
+}
+.nombres{
+	font-size: 15px;
+	margin-top:190px;
+} 
+.instructores {
+   text-align: center;
+   margin-bottom: 20px;
+}
+.text2 {
+	margin-bottom: 50px;
+	padding-bottom:50px; 
+}
+.arriba{
+	position: relative;
+	top: 80px;
+}
+
+ .frase{
+	font-size: 30px;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	font-size:37px;
+
+}
+
+.balletshoes {
+    background: url("../img/shoes_1.jpg")no-repeat;
+    background-size: 60% 100%;
+    height: 587px;
+    background-position: 470px 0px;
+    padding: 80px 0px;
+}
+input, .messaje {
+	display: block;
+	width: 450px;
+	padding: 7px 34px;
+	margin: 12px 0px;
+	border-radius: 3px;
+	border: 1px #ccc solid;
+}
+.fa-envelope, .fa-pencil, .fa-user {
+	position: absolute;
+	margin: 8px 10px;
+}
+.enviar {
+	background-color: #192951;
+	color: white;
+	padding: 15px;
+	font-size: 15px;
+}
+.end{
+	background-color: #192951;
+	height: 70px;
+}
+.final{
+	color: white;
+	font-size:13px;
+	position: relative;
+	right: 80px;
+	top: 26px;
+}
+
+
